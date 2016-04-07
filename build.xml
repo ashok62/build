@@ -1,0 +1,18 @@
+<project name="firstproject" default="1">
+
+    <target name="1" depends="2">
+  
+         <echo> 
+		      this is ashok
+		 </echo>
+  
+    </target>
+	
+	<target name="2" depends="1">
+  
+         <echo> 
+		      this is ashok tooo
+		 </echo>
+  
+    </target>
+	</project>

@@ -1,0 +1,9 @@
+<project name="filesys" default="1">
+
+    <target name="1">
+  
+         <echo> this is ashok </echo>
+		 <mkdir dir="build/class"/>
+  
+    </target>
+</project>
